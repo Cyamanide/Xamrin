@@ -1,2 +1,4 @@
 # Xamrin
-A collection of things I've made
+5 Star rating custom view. star images included as embedded resource.
+
+

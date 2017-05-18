@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Misc.Views.RatingView">
+    
+    <StackLayout Orientation="Horizontal" HeightRequest="50">
+        <Image x:Name="Star1">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="StarTapped" />
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="Star2">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="StarTapped1" />
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="Star3">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="StarTapped2" />
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="Star4">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="StarTapped3" />
+            </Image.GestureRecognizers>
+        </Image>
+        <Image  x:Name="Star5">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="StarTapped4" />
+            </Image.GestureRecognizers>
+        </Image>
+    </StackLayout>
+</ContentView>
